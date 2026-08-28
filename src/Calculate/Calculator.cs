@@ -26,4 +26,14 @@ public class Calculator
         int value = a - b;
         return value;
     }
+
+    public int Multiply(int a, int b) {
+        int value = a * b;
+        return value;
+    }
+
+    public int Divide(int a, int b) {
+        int value = a / b;
+        return value;
+    }
 }
